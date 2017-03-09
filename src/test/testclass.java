@@ -2,6 +2,11 @@ package test;
 
 public class testclass {
 	public static void main(String[]args) {
-		System.out.println("Hello Africa!");
+		
+		System.out.printf("Das ist ein Text: %s", getString());
 	}
+	public static String getString(){
+		return "Hello Europa!";
+	}
+	
 }
